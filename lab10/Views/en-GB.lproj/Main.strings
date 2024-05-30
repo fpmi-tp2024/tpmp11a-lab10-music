@@ -1,45 +1,45 @@
 
 /* Class = "UIButton"; normalTitle = "Музыкальные вечера"; ObjectID = "0EC-LB-4gQ"; */
-"0EC-LB-4gQ.normalTitle" = "Музыкальные вечера";
+"0EC-LB-4gQ.normalTitle" = "Musical Evenings";
 
 /* Class = "UIButton"; normalTitle = "Курсы"; ObjectID = "0e1-Om-jpq"; */
-"0e1-Om-jpq.normalTitle" = "Курсы";
+"0e1-Om-jpq.normalTitle" = "Courses";
 
 /* Class = "UIButton"; normalTitle = "<"; ObjectID = "0j9-84-7f4"; */
 "0j9-84-7f4.normalTitle" = "<";
 
 /* Class = "UILabel"; text = "Такси"; ObjectID = "1sz-Vq-ujQ"; */
-"1sz-Vq-ujQ.text" = "Такси";
+"1sz-Vq-ujQ.text" = "Taxi";
 
 /* Class = "UILabel"; text = "-Как определить уровень вокала?                                                       -Наши опытные преподатели готовы провести с Вами тестовое занятие."; ObjectID = "36t-t3-Xat"; */
-"36t-t3-Xat.text" = "-Как определить уровень вокала?                                                       -Наши опытные преподатели готовы провести с Вами тестовое занятие.";
+"36t-t3-Xat.text" = "-How to determine the vocal level?                                                       -Our experienced teachers are ready to conduct a test lesson with you.";
 
 /* Class = "UIButton"; normalTitle = "Получить консультацию"; ObjectID = "43c-hT-pS2"; */
-"43c-hT-pS2.normalTitle" = "Получить консультацию";
+"43c-hT-pS2.normalTitle" = "To get a consultation";
 
 /* Class = "UILabel"; text = "Минск, пр. Независимости 4"; ObjectID = "4GM-t5-r0A"; */
-"4GM-t5-r0A.text" = "Минск, пр. Независимости 4";
+"4GM-t5-r0A.text" = "Minsk, Nezavisimosti Ave. 4";
 
 /* Class = "UILabel"; text = "E-mail"; ObjectID = "4YE-9Q-GLt"; */
 "4YE-9Q-GLt.text" = "E-mail";
 
 /* Class = "UIButton"; normalTitle = "Вход"; ObjectID = "5SG-vs-jkN"; */
-"5SG-vs-jkN.normalTitle" = "Вход";
+"5SG-vs-jkN.normalTitle" = "Entrance";
 
 /* Class = "UILabel"; text = "Контакты"; ObjectID = "6Jj-SS-4Gq"; */
-"6Jj-SS-4Gq.text" = "Контакты";
+"6Jj-SS-4Gq.text" = "Contacts";
 
 /* Class = "UILabel"; text = "Задать вопрос"; ObjectID = "6OS-0b-0Dy"; */
-"6OS-0b-0Dy.text" = "Задать вопрос";
+"6OS-0b-0Dy.text" = "Ask a Question";
 
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "A4M-Dm-60y"; */
 "A4M-Dm-60y.placeholder" = "Password";
 
 /* Class = "UIButton"; normalTitle = "Искать"; ObjectID = "B0b-GZ-CYS"; */
-"B0b-GZ-CYS.normalTitle" = "Искать";
+"B0b-GZ-CYS.normalTitle" = "Search";
 
 /* Class = "UILabel"; text = "Курсы"; ObjectID = "BJs-1P-TQP"; */
-"BJs-1P-TQP.text" = "Курсы";
+"BJs-1P-TQP.text" = "Courses";
 
 /* Class = "UIButton"; normalTitle = "<"; ObjectID = "CeV-go-ttf"; */
 "CeV-go-ttf.normalTitle" = "<";
@@ -48,22 +48,22 @@
 "Dq0-Te-Odi.normalTitle" = "<";
 
 /* Class = "UILabel"; text = "Желаете посетить?"; ObjectID = "Erc-cu-TEw"; */
-"Erc-cu-TEw.text" = "Желаете посетить?";
+"Erc-cu-TEw.text" = "Would you like to visit?";
 
 /* Class = "UIButton"; normalTitle = "Концерты"; ObjectID = "GGj-Vt-Ezb"; */
-"GGj-Vt-Ezb.normalTitle" = "Концерты";
+"GGj-Vt-Ezb.normalTitle" = "Concerts";
 
 /* Class = "UITextField"; placeholder = "Ваш вопрос"; ObjectID = "GeG-IL-gFk"; */
-"GeG-IL-gFk.placeholder" = "Ваш вопрос";
+"GeG-IL-gFk.placeholder" = "Your question";
 
 /* Class = "UIButton"; normalTitle = "Связаться с нами"; ObjectID = "J0Z-Ta-LTA"; */
-"J0Z-Ta-LTA.normalTitle" = "Связаться с нами";
+"J0Z-Ta-LTA.normalTitle" = "Connect with us";
 
 /* Class = "UILabel"; text = "Алексей                   Директор. Преподаватель игры на фортепиано aliaksei@songfly.com"; ObjectID = "Kmb-aI-lkV"; */
-"Kmb-aI-lkV.text" = "Алексей                   Директор. Преподаватель игры на фортепиано aliaksei@songfly.com";
+"Kmb-aI-lkV.text" = "Alexey Director. Piano teacher aliaksei@songfly.com";
 
 /* Class = "UILabel"; text = " Регистрация участника                   клуба"; ObjectID = "LHf-lf-0qm"; */
-"LHf-lf-0qm.text" = " Регистрация участника                   клуба";
+"LHf-lf-0qm.text" = " Club member registration";
 
 /* Class = "UITextField"; placeholder = "Login"; ObjectID = "MvM-kO-2hh"; */
 "MvM-kO-2hh.placeholder" = "Login";
@@ -75,76 +75,76 @@
 "OjN-JO-PYk.normalTitle" = "<";
 
 /* Class = "UIButton"; normalTitle = "получить индивидуальную консультацию"; ObjectID = "Ota-VK-H0n"; */
-"Ota-VK-H0n.normalTitle" = "получить индивидуальную консультацию";
+"Ota-VK-H0n.normalTitle" = "get an individual consultation";
 
 /* Class = "UILabel"; text = "BYN"; ObjectID = "P0s-9N-N46"; */
 "P0s-9N-N46.text" = "BYN";
 
 /* Class = "UILabel"; text = "Добро пожаловать!"; ObjectID = "PON-Ht-PWk"; */
-"PON-Ht-PWk.text" = "Добро пожаловать!";
+"PON-Ht-PWk.text" = "Welcome!";
 
 /* Class = "UIButton"; normalTitle = "Наши преподаватели"; ObjectID = "RXb-Md-rKn"; */
-"RXb-Md-rKn.normalTitle" = "Наши преподаватели";
+"RXb-Md-rKn.normalTitle" = "Our teachers";
 
 /* Class = "UILabel"; text = "Пароль"; ObjectID = "ReD-ed-4hJ"; */
-"ReD-ed-4hJ.text" = "Пароль";
+"ReD-ed-4hJ.text" = "Password";
 
 /* Class = "UIButton"; normalTitle = "Вопросы"; ObjectID = "Ria-MQ-tH8"; */
-"Ria-MQ-tH8.normalTitle" = "Вопросы";
+"Ria-MQ-tH8.normalTitle" = "Questions";
 
 /* Class = "UILabel"; text = "Рия                   Преподаватель вокала    ria@songfly.com"; ObjectID = "Tef-tO-PhM"; */
-"Tef-tO-PhM.text" = "Рия                   Преподаватель вокала    ria@songfly.com";
+"Tef-tO-PhM.text" = "Riya Vocal teacher ria@songfly.com";
 
 /* Class = "UILabel"; text = "Укажите данные для связи с вами"; ObjectID = "Tvc-RE-aeK"; */
-"Tvc-RE-aeK.text" = "Укажите данные для связи с вами";
+"Tvc-RE-aeK.text" = "Enter your contact information";
 
 /* Class = "UIButton"; normalTitle = "Купить инструмент"; ObjectID = "UIe-ag-xOF"; */
-"UIe-ag-xOF.normalTitle" = "Купить инструмент";
+"UIe-ag-xOF.normalTitle" = "Buy a tool";
 
 /* Class = "UILabel"; text = "Телефон"; ObjectID = "V6V-5T-5gi"; */
-"V6V-5T-5gi.text" = "Телефон";
+"V6V-5T-5gi.text" = "Phone";
 
 /* Class = "UILabel"; text = "+375 29 111 11 11"; ObjectID = "WAY-ha-zAm"; */
 "WAY-ha-zAm.text" = "+375 29 111 11 11";
 
 /* Class = "UILabel"; text = "Настя и Кирилл                   Преподаватели игры на гитаре NastyaKirill@songfly.com"; ObjectID = "Xtc-nM-pNb"; */
-"Xtc-nM-pNb.text" = "Настя и Кирилл                   Преподаватели игры на гитаре NastyaKirill@songfly.com";
+"Xtc-nM-pNb.text" = "Nastya and Kirill Guitar teachers NastyaKirill@songfly.com";
 
 /* Class = "UILabel"; text = "Логин"; ObjectID = "Y1C-R7-l7A"; */
-"Y1C-R7-l7A.text" = "Логин";
+"Y1C-R7-l7A.text" = "Login";
 
 /* Class = "UILabel"; text = "-Можно ли пропустить занятие?                                    -Можно, но нужно отработать с любой параллельной группой или с преподавателем индивидуально"; ObjectID = "Z4O-ov-e78"; */
-"Z4O-ov-e78.text" = "-Можно ли пропустить занятие?                                    -Можно, но нужно отработать с любой параллельной группой или с преподавателем индивидуально";
+"Z4O-ov-e78.text" = "-Can I skip class?                                    -It’s possible, but you need to work with any parallel group or with a teacher individually";
 
 /* Class = "UILabel"; text = "Часто задаваемые вопросы"; ObjectID = "buM-Wb-mJO"; */
-"buM-Wb-mJO.text" = "Часто задаваемые вопросы";
+"buM-Wb-mJO.text" = "FAQ";
 
 /* Class = "UIButton"; normalTitle = "Посетить наш сайт"; ObjectID = "dud-4M-eoe"; */
-"dud-4M-eoe.normalTitle" = "Посетить наш сайт";
+"dud-4M-eoe.normalTitle" = "Visit our website";
 
 /* Class = "UITextField"; placeholder = "Phone"; ObjectID = "eef-P1-jJv"; */
 "eef-P1-jJv.placeholder" = "Phone";
 
 /* Class = "UIButton"; normalTitle = "Игра в оркестре"; ObjectID = "fR6-Lc-SxG"; */
-"fR6-Lc-SxG.normalTitle" = "Игра в оркестре";
+"fR6-Lc-SxG.normalTitle" = "Playing in an orchestra";
 
 /* Class = "UILabel"; text = "Метро:                                          Площадь Ленина/Вокзальная"; ObjectID = "gPa-CC-Efh"; */
-"gPa-CC-Efh.text" = "Метро:                                          Площадь Ленина/Вокзальная";
+"gPa-CC-Efh.text" = "Metro: Lenin Square/Vokzalnaya";
 
 /* Class = "UILabel"; text = "Главная"; ObjectID = "gR5-rY-HI4"; */
-"gR5-rY-HI4.text" = "Главная";
+"gR5-rY-HI4.text" = "home";
 
 /* Class = "UIButton"; normalTitle = "Барабаны"; ObjectID = "grG-Ie-bB6"; */
-"grG-Ie-bB6.normalTitle" = "Барабаны";
+"grG-Ie-bB6.normalTitle" = "Drums";
 
 /* Class = "UILabel"; text = "Телефон"; ObjectID = "h0j-S0-8R1"; */
-"h0j-S0-8R1.text" = "Телефон";
+"h0j-S0-8R1.text" = "Phone";
 
 /* Class = "UIButton"; normalTitle = "Музыкальные вечера"; ObjectID = "jGc-GL-guS"; */
-"jGc-GL-guS.normalTitle" = "Музыкальные вечера";
+"jGc-GL-guS.normalTitle" = "Musical evenings";
 
 /* Class = "UILabel"; text = "Музыкальные вечера проводятся каждую пятницу, играем на музыкальных инструментах и поем песни\nТематика вечеров - на ваше усмотрение "; ObjectID = "jeA-f3-uQx"; */
-"jeA-f3-uQx.text" = "Музыкальные вечера проводятся каждую пятницу, играем на музыкальных инструментах и поем песни\nТематика вечеров - на ваше усмотрение ";
+"jeA-f3-uQx.text" = "Musical evenings are held every Friday, we play musical instruments and sing songs\nThe theme of the evenings is at your discretion";
 
 /* Class = "UIButton"; normalTitle = "<"; ObjectID = "lnW-Qv-xCH"; */
 "lnW-Qv-xCH.normalTitle" = "<";
@@ -156,19 +156,19 @@
 "nmn-b6-yJf.normalTitle" = "<";
 
 /* Class = "UILabel"; text = "или воспользоваться поиском по ключевым словам:"; ObjectID = "qLd-7t-NjX"; */
-"qLd-7t-NjX.text" = "или воспользоваться поиском по ключевым словам:";
+"qLd-7t-NjX.text" = "or use keyword search:";
 
 /* Class = "UITextField"; placeholder = "Введите ключевые слова вопроса"; ObjectID = "smk-6I-e10"; */
-"smk-6I-e10.placeholder" = "Введите ключевые слова вопроса";
+"smk-6I-e10.placeholder" = "Enter question keywords";
 
 /* Class = "UILabel"; text = "Наши преподаватели"; ObjectID = "tC3-Dv-Ol5"; */
-"tC3-Dv-Ol5.text" = "Наши преподаватели";
+"tC3-Dv-Ol5.text" = "Our teachers";
 
 /* Class = "UILabel"; text = "Вы также можете"; ObjectID = "u1Y-wH-jMA"; */
-"u1Y-wH-jMA.text" = "Вы также можете";
+"u1Y-wH-jMA.text" = "you also can";
 
 /* Class = "UILabel"; text = "Наш адрес"; ObjectID = "vRR-kV-rK6"; */
-"vRR-kV-rK6.text" = "Наш адрес";
+"vRR-kV-rK6.text" = "Our address";
 
 /* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "yga-5i-Vq5"; */
 "yga-5i-Vq5.normalTitle" = "ОК";
