@@ -26,7 +26,7 @@ class MainViewController: UIViewController {
                     if ((data[i].range(of:inpTexts![j]) != nil) || (data[i].lowercased().range(of:inpTexts![j]) != nil)) {
                         resQuest[filledLabel].text = data[i]
                         filledLabel += 1
-                        if (filledLabel > 2) {
+                        if (filledLabel > 1) {
                             break forMet
                         }
                         break
