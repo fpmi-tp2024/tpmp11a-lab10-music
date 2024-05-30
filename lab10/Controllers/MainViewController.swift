@@ -7,12 +7,17 @@ class MainViewController: UIViewController {
     var resQuest = [UILabel]()
     var data = [String]()
     
+    func setupData() -> [String]
+    {
+        let path = Bundle.main.path(forResource: "Questions", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        return dict!.object(forKey: "Questions") as! [String]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.resQuest = [ask1, ask2]
-        let path = Bundle.main.path(forResource: "Questions", ofType: "plist")
-        let dict = NSDictionary(contentsOfFile: path!)
-        data = dict!.object(forKey: "Questions") as! [String]
+        data = setupData()
     }
     
     @IBAction func findSimilarQuestionsAction(_ sender: Any) {

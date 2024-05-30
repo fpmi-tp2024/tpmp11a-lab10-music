@@ -21,16 +21,37 @@ class lab10Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testShowInfolWindowSetupView() {
+        let testShowInfolWindow = ShowInfolWindow()
+        let testUIView = UIView()
+        testShowInfolWindow.short(testUIView, txt_msg: "Hello, world!")
+        XCTAssertEqual(testUIView.subviews.count, 2)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testShowInfolWindowSetupMSG() {
+        let testShowInfolWindow = ShowInfolWindow()
+        let testUIView = UIView()
+        testShowInfolWindow.short(testUIView, txt_msg: "Hello, world!")
+        let firView = testUIView.subviews[1] as UIView
+        let labelT = firView.subviews[0] as! UILabel
+        XCTAssertEqual(labelT.text, "Hello, world!")
     }
     
+    func testShowInfolWindowSetupMSGCenter() {
+        let testShowInfolWindow = ShowInfolWindow()
+        let testUIView = UIView()
+        testShowInfolWindow.short(testUIView, txt_msg: "Hello, world!")
+        let firView = testUIView.subviews[1] as UIView
+        let labelT = firView.subviews[0] as! UILabel
+        XCTAssertEqual(labelT.center.x, firView.bounds.width / 2)
+        XCTAssertEqual(labelT.center.y, firView.bounds.height / 2)
+    }
+    
+    func testMainViewControllerSetupData() {
+        let vc = MainViewController()
+        let testData = vc.setupData()
+        let path = Bundle.main.path(forResource: "Questions", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        XCTAssertEqual(testData, dict!.object(forKey: "Questions") as! [String])
+    }
 }

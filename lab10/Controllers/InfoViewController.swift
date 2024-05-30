@@ -10,6 +10,7 @@ import CoreLocation
 class InfoViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     @IBOutlet weak var mapInfo: MKMapView!
     let annotation = MKPointAnnotation()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 53.893900, longitude: 27.546944)
