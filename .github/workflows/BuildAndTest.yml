@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build
-        run: xcodebuild -project 'lab10.xcodeproj' -scheme 'lab10' -destination 'generic/platform=iOS' -configuration Release test CODE_SIGNING_ALLOWED=NO
+        run: xcodebuild -project 'lab10.xcodeproj' -scheme 'lab10' -destination 'generic/platform=iOS' -configuration Release build CODE_SIGNING_ALLOWED=NO
 
       # Запуск юнит-тестов
       - name: Run Unit Tests
