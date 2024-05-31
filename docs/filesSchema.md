@@ -9,4 +9,6 @@
 
 # Диаграмма файлов приложения
 
-![Files schema]()
+[Диаграмма классов](https://github.com/fpmi-tp2024/tpmp11a-lab10-music/blob/main/Diagrams/classDiagram.jpg)
+
+[Диаграмма вариантов использования](https://github.com/fpmi-tp2024/tpmp11a-lab10-music/blob/main/Diagrams/useCaseDiagram.jpg)
