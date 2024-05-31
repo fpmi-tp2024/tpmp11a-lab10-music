@@ -52,12 +52,26 @@ class ViewController: UIViewController {
     @IBAction func enterButtonAction(_ sender: Any) {
         if (enterButton.title(for: []) == "ОК") {
             if (loginInput.text != "" && passwordInput.text != "" && emailInput.text != "" && phoneNumber.text != "") {
-                UserDefaults.standard.set(loginInput.text, forKey: "Login")
-                UserDefaults.standard.set(passwordInput.text, forKey: "Password")
-                UserDefaults.standard.set(emailInput.text, forKey: "e-mail")
-                UserDefaults.standard.set(phoneNumber.text, forKey: "Phone")
-                ShowInfolWindow.shared.short(self.view, txt_msg: "Благодарим за регистрацию!")
-                self.performSegue(withIdentifier: "mainScreen", sender: nil)
+                if (UserDefaults.standard.string(forKey: "Login") == loginInput.text) 
+                {
+                    if (UserDefaults.standard.string(forKey: "Password") == passwordInput.text)
+                    {
+                        self.performSegue(withIdentifier: "mainScreen", sender: nil)
+                    }
+                    else
+                    {
+                        ShowInfolWindow.shared.short(self.view, txt_msg: "Пользователь с таким логином уже существует. Пароль не верный.")
+                    }
+                }
+                else
+                {
+                    UserDefaults.standard.set(loginInput.text, forKey: "Login")
+                    UserDefaults.standard.set(passwordInput.text, forKey: "Password")
+                    UserDefaults.standard.set(emailInput.text, forKey: "e-mail")
+                    UserDefaults.standard.set(phoneNumber.text, forKey: "Phone")
+                    ShowInfolWindow.shared.short(self.view, txt_msg: "Благодарим за регистрацию!")
+                    self.performSegue(withIdentifier: "mainScreen", sender: nil)
+                }
             }
             else {
                 ShowInfolWindow.shared.short(self.view, txt_msg: "Заполните все поля!")
