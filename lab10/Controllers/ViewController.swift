@@ -31,9 +31,19 @@ class ViewController: UIViewController {
         
     }
   
+    @objc func dismissKeyboard() {
+        // Вызовите метод endEditing(_:), чтобы закрыть клавиатуру
+        view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        signInOrUp.accessibilityIdentifier = "signInOrUp"
         passwordInput.accessibilityIdentifier = "passwordInput"
+        emailInput.accessibilityIdentifier = "emailInput"
+        phoneNumber.accessibilityIdentifier = "phoneInput"
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
         login()
         iconClick = true
         passwordInput.isSecureTextEntry = true
