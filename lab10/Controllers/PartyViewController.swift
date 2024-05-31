@@ -19,8 +19,8 @@ class PartyViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
     
     let sqlStatement1 = "CREATE TABLE IF NOT EXISTS PricesAndBusstops(id INTEGER UNIQUE, price DOUBLE, transport TEXT);"
     let sqlStatement2 = "CREATE TABLE IF NOT EXISTS BusesNumbers(id INTEGER PRIMARY KEY AUTOINCREMENT, transport TEXT, busnumber TEXT);"
-    let insertStatement1 = "INSERT OR IGNORE INTO PricesAndBusstops(id, price, transport) VALUES (10, 99, 'Машерова'), (1, 80, 'Убаревича');"
-    let insertStatement2 = "INSERT OR IGNORE INTO BusesNumbers(id, transport, busnumber) VALUES (1, 'Машерова','119'),(1, 'Дружная', '80'),(2, 'Кропоткина', '99'), (3, 'Убаревича', '90'), (4, 'Убаревича', '1');"
+    let insertStatement1 = "INSERT OR IGNORE INTO PricesAndBusstops(id, price, transport) VALUES (1, 99, 'Кунцевщина'), (2, 80, 'Масюковщина'), (3, 69, 'Кирова'), (4, 113, 'Славинского');"
+    let insertStatement2 = "INSERT OR IGNORE INTO BusesNumbers(id, transport, busnumber) VALUES (1, 'Кунцевщина','40'), (2, 'Масюковщина', '69'), (3, 'Кирова', '1'), (4, 'Славинского', '100');"
     override func viewDidLoad() {
         super.viewDidLoad()
         manager.delegate = self
