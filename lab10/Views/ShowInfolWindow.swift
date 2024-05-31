@@ -12,7 +12,7 @@ open class ShowInfolWindow: UILabel {
     var labelT = UILabel()
     
     func setup(_ view: UIView,txt_msg:String) {
-        let white = UIColor ( red: 1/255, green: 0/255, blue:0/255, alpha: 0.0 )
+        let white = UIColor(red: 1/255, green: 0/255, blue:0/255, alpha: 0.0 )
 
         firView.frame = CGRect(x: 0, y: 0, width: view.frame.width - 60 , height: 50)
         firView.center = CGPoint(x: view.bounds.width / 2, y: view.bounds.height - 100)

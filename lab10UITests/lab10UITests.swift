@@ -30,25 +30,25 @@ final class lab10UITests: XCTestCase {
         let loginInput = app.textFields["loginInput"]
         XCTAssert(loginInput.exists)
         loginInput.tap()
-        loginInput.typeText("1")
+        loginInput.typeText("5")
         let passwordInput = app.secureTextFields["passwordInput"]
         XCTAssert(passwordInput.exists)
         passwordInput.tap()
-        passwordInput.typeText("1")
+        passwordInput.typeText("5")
         let emailInput = app.textFields["emailInput"]
         XCTAssert(emailInput.exists)
         emailInput.tap()
-        emailInput.typeText("1")
+        emailInput.typeText("5")
         let screen = app.windows.element(boundBy: 0)
         let coordinate = screen.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)) // Центр экрана
         coordinate.tap()
-        app.childrenMatchingType(.Window).elementBoundByIndex(0).tap()
+        app.children(matching: .window).element(boundBy: 0).tap()
         let phoneInput = app.textFields["phoneInput"]
         XCTAssert(phoneInput.exists)
         phoneInput.tap()
-        phoneInput.typeText("1")
+        phoneInput.typeText("5")
         coordinate.tap()
-        app.childrenMatchingType(.Window).elementBoundByIndex(0).tap()
+        app.children(matching: .window).element(boundBy: 0).tap()
         let enterButton2 = app.buttons["ОК"]
         XCTAssert(enterButton2.exists)
         enterButton2.tap()
