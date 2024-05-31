@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
 
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) 
     {
         view.endEditing(true)
         super.touchesBegan(touches, withEvent: event)
