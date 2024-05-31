@@ -50,5 +50,8 @@ final class lab10UITests: XCTestCase {
         let enterButton2 = app.buttons["ОК"]
         XCTAssert(enterButton2.exists)
         enterButton2.tap()
+        let coursesBtn = app.buttons["Courses"]
+        XCTAssert(coursesBtn.exists)
+        coursesBtn.tap()
     }
 }
