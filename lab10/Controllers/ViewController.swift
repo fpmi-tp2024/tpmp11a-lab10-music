@@ -36,6 +36,11 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         signInOrUp.accessibilityIdentifier = "signInOrUp"

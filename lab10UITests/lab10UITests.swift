@@ -30,15 +30,15 @@ final class lab10UITests: XCTestCase {
         let loginInput = app.textFields["loginInput"]
         XCTAssert(loginInput.exists)
         loginInput.tap()
-        loginInput.typeText("5")
+        loginInput.typeText("6")
         let passwordInput = app.secureTextFields["passwordInput"]
         XCTAssert(passwordInput.exists)
         passwordInput.tap()
-        passwordInput.typeText("5")
+        passwordInput.typeText("6")
         let emailInput = app.textFields["emailInput"]
         XCTAssert(emailInput.exists)
         emailInput.tap()
-        emailInput.typeText("5")
+        emailInput.typeText("6")
         let screen = app.windows.element(boundBy: 0)
         let coordinate = screen.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)) // Центр экрана
         coordinate.tap()
@@ -46,7 +46,7 @@ final class lab10UITests: XCTestCase {
         let phoneInput = app.textFields["phoneInput"]
         XCTAssert(phoneInput.exists)
         phoneInput.tap()
-        phoneInput.typeText("5")
+        phoneInput.typeText("6")
         coordinate.tap()
         app.children(matching: .window).element(boundBy: 0).tap()
         let enterButton2 = app.buttons["ОК"]
