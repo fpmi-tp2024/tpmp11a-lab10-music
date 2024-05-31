@@ -6,12 +6,33 @@
 	<dict>
 		<key>lab10.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>lab10Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>lab10UITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5217E21F2C08B9B300F1DBF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>845F6F8520B725F800934110</key>
 		<dict>
 			<key>primary</key>
