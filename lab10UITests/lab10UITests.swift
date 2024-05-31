@@ -18,15 +18,21 @@ final class lab10UITests: XCTestCase {
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
+        
         let enterButton = app.buttons["Вход"]
         XCTAssert(enterButton.exists)
         enterButton.tap()
         let loginInput = app.textFields["loginInput"]
         XCTAssert(loginInput.exists)
+        loginInput.tap()
         loginInput.typeText("1")
-        let passwordInput = app.textFields["passwordInput"]
+        let passwordInput = app.secureTextFields["passwordInput"]
         XCTAssert(passwordInput.exists)
+        passwordInput.tap()
         passwordInput.typeText("1")
+        let enterButton2 = app.buttons["Войти"]
+        XCTAssert(enterButton2.exists)
+        enterButton2.tap()
         let coursesBtn = app.buttons["Courses"]
         XCTAssert(coursesBtn.exists)
         coursesBtn.tap()

@@ -33,6 +33,7 @@ class ViewController: UIViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        passwordInput.accessibilityIdentifier = "passwordInput"
         login()
         iconClick = true
         passwordInput.isSecureTextEntry = true
