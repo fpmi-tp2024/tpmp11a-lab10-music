@@ -46,5 +46,9 @@ final class lab10UITests: XCTestCase {
         XCTAssert(phoneInput.exists)
         phoneInput.tap()
         phoneInput.typeText("1")
+        coordinate.tap()
+        let enterButton2 = app.buttons["ОК"]
+        XCTAssert(enterButton2.exists)
+        enterButton2.tap()
     }
 }
