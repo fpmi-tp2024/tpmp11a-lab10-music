@@ -42,11 +42,13 @@ final class lab10UITests: XCTestCase {
         let screen = app.windows.element(boundBy: 0)
         let coordinate = screen.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)) // Центр экрана
         coordinate.tap()
+        app.childrenMatchingType(.Window).elementBoundByIndex(0).tap()
         let phoneInput = app.textFields["phoneInput"]
         XCTAssert(phoneInput.exists)
         phoneInput.tap()
         phoneInput.typeText("1")
         coordinate.tap()
+        app.childrenMatchingType(.Window).elementBoundByIndex(0).tap()
         let enterButton2 = app.buttons["ОК"]
         XCTAssert(enterButton2.exists)
         enterButton2.tap()
