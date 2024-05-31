@@ -14,5 +14,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Build
         run: xcodebuild -project 'lab10.xcodeproj' -scheme 'lab10' -destination 'generic/platform=iOS' -configuration Release build CODE_SIGNING_ALLOWED=NO
+
+      # Запуск юнит-тестов
+      - name: Run Unit Tests
+        run: xcodebuild -project 'lab10.xcodeproj' -scheme 'lab10Tests' -destination 'platform=iOS Simulator,name=iPhone 12' test
+
+      # Запуск UI-тестов
+      - name: Run UI Tests
+        run: xcodebuild -project 'lab10.xcodeproj' -scheme 'lab10UITests' -destination 'platform=iOS Simulator,name=iPhone 12' test
