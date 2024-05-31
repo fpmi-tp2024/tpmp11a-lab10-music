@@ -35,6 +35,12 @@ class ViewController: UIViewController {
         // Вызовите метод endEditing(_:), чтобы закрыть клавиатуру
         view.endEditing(true)
     }
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) 
+    {
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
