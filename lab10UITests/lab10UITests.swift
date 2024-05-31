@@ -53,5 +53,10 @@ final class lab10UITests: XCTestCase {
         let coursesBtn = app.buttons["Courses"]
         XCTAssert(coursesBtn.exists)
         coursesBtn.tap()
+        XCTAssert(app.buttons["Calmar"].exists)
+        XCTAssert(app.buttons["MusicEvenings"].exists)
+        XCTAssert(app.buttons["OrchestraPlaying"].exists)
+        XCTAssert(app.buttons["Drums"].exists)
+        XCTAssert(app.buttons["BuyInstruments"].exists)
     }
 }
