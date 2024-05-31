@@ -39,5 +39,12 @@ final class lab10UITests: XCTestCase {
         XCTAssert(emailInput.exists)
         emailInput.tap()
         emailInput.typeText("1")
+        let screen = app.windows.element(boundBy: 0)
+        let coordinate = screen.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)) // Центр экрана
+        coordinate.tap()
+        let phoneInput = app.textFields["phoneInput"]
+        XCTAssert(phoneInput.exists)
+        phoneInput.tap()
+        phoneInput.typeText("1")
     }
 }
